@@ -1,0 +1,25 @@
+{
+  "name": "mc-server-stats",
+  "version": "1.0.0",
+  "description": "Monitors a Minecraft server and gives player statistics",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --progress --colors",
+    "build": "webpack --progress --colors"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.4.0",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "history": "^1.17.0",
+    "html-webpack-plugin": "^1.7.0",
+    "react": "^0.14.6",
+    "react-hot-loader": "^1.3.0",
+    "react-router": "^1.0.3",
+    "webpack": "^1.12.11",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
