@@ -1,6 +1,6 @@
 var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
-module.exports = {  
+module.exports = {
 	entry: [
 	  'webpack/hot/only-dev-server',
 	  './src/client/js/app.js'
@@ -16,8 +16,10 @@ module.exports = {
 		]
 	},
 	plugins: [
-	  new HtmlWebpackPlugin()
+	  new HtmlWebpackPlugin({
+		  template: '/src/client/index.html'
+	  })
 	],
-	
+
 
 };

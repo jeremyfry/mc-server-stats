@@ -1,9 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
+import Nav from './nav';
 
-class App extends React.Component {
-	render(){
-		return <h1>Test</h1>
-	}
-}
-//const App = () => <h1>Hello there</h1>
-export default App
+ReactDOM.render(<Nav />, document.querySelector('nav#main'));
